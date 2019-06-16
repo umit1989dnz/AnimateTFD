@@ -77,7 +77,7 @@
 		1EDB973B8BCFFC29BA0977B67832EF34 /* Pods-AnimateTFD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimateTFD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26BB3F1E7BB6B66E07046DF6A917FD4C /* Pods-AnimateTFD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimateTFD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2B7745465D9A2F91E0DE8EDFF83AA3E6 /* Pods-AnimateTFD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimateTFD_Example-umbrella.h"; sourceTree = "<group>"; };
-		2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = material_icons_1.9.32.ttf; sourceTree = "<group>"; };
+		2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = material_icons_1.9.32.ttf; path = "Example/Pods/Target Support Files/AnimateTFD/material_icons_1.9.32.ttf"; sourceTree = "<group>"; };
 		2E64354C4E56A54ED5248E4D15C71D3A /* Pods-AnimateTFD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimateTFD_Tests.modulemap"; sourceTree = "<group>"; };
 		30EB0069D9070E4736F24727BAB9FFD1 /* Pods-AnimateTFD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimateTFD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		323764C5F0E782F09888A0878246849E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -169,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				9C3352FAF84BB26CDFC1E40C2E2FB3B1 /* AnimateTFD.podspec */,
+				2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */,
 				688F940D3A7CB6F2074BBA3161FD01C5 /* LICENSE */,
 				C76DF70E1ED9F101C8C09EFB6DB2D519 /* README.md */,
 			);
@@ -206,7 +207,6 @@
 		33E8642762390F01B76B6DD1AC702005 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */,
 				5F050C495C655F5B2CAECDE08D87BF7D /* AnimateTFD.modulemap */,
 				F36DF41FB16EFAF01C1E1D2D48B4FE5C /* AnimateTFD.xcconfig */,
 				0C9828263312E4C41093EE7CB2642D4A /* AnimateTFD-dummy.m */,

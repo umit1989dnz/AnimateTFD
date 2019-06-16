@@ -12,6 +12,12 @@ extension UIView {
     
 }
 
+extension String {
+    func getIcon() -> String {
+        return self + " " + "掠"
+    }
+}
+
 extension UIImage{
     
     

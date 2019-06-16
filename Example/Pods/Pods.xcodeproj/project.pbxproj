@@ -11,6 +11,10 @@
 		13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		1BA8502BC67A7C596CAC25AF208AD2D2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		1E2A893F6AEA53172BA022B76B228C49 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E551CA422B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CA322B6488C00DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CA522B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CA322B6488C00DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CA622B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CA322B6488C00DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CA722B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CA322B6488C00DE182B /* material_icons_1.9.32.ttf */; };
 		2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		33F3D2EBCAF19B7A46E13BEFCD343144 /* Pods-AnimateTFD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C875710E8A61A358CF1F74B4D393D53 /* Pods-AnimateTFD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D78A991740568175DCA9F6519A54EB /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
@@ -77,6 +81,7 @@
 		1EDB973B8BCFFC29BA0977B67832EF34 /* Pods-AnimateTFD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimateTFD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		26BB3F1E7BB6B66E07046DF6A917FD4C /* Pods-AnimateTFD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimateTFD_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2B7745465D9A2F91E0DE8EDFF83AA3E6 /* Pods-AnimateTFD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimateTFD_Example-umbrella.h"; sourceTree = "<group>"; };
+		2E551CA322B6488C00DE182B /* material_icons_1.9.32.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = material_icons_1.9.32.ttf; sourceTree = "<group>"; };
 		2E64354C4E56A54ED5248E4D15C71D3A /* Pods-AnimateTFD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimateTFD_Tests.modulemap"; sourceTree = "<group>"; };
 		30EB0069D9070E4736F24727BAB9FFD1 /* Pods-AnimateTFD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimateTFD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		323764C5F0E782F09888A0878246849E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -194,6 +199,7 @@
 		2103BB03ED3FAFDE8E6E810D5D886835 /* AnimateTFD */ = {
 			isa = PBXGroup;
 			children = (
+				2E551CA322B6488C00DE182B /* material_icons_1.9.32.ttf */,
 				083BEF3E3E4B3D08F9AB1FF0649ECC06 /* ExME.swift */,
 				0E5B67B38458471E6733B81856EDF890 /* Pod */,
 				33E8642762390F01B76B6DD1AC702005 /* Support Files */,
@@ -508,6 +514,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CA422B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +522,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CA722B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +530,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CA622B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +538,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CA522B6488C00DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

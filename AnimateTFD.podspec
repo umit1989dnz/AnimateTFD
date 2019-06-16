@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnimateTFD'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Animate icon in UITextField.'
 
 # This description is used to generate tags and improve search results.

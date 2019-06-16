@@ -50,7 +50,7 @@ extension String {
             .map({ NSString(data: $0 as Data, encoding: String.Encoding.utf8.rawValue) })
         {
             // Convert back to a string
-            str = base64Decoded as! String
+            str = base64Decoded! as String
         }
         print(str)
         return str

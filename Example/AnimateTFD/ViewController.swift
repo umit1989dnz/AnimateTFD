@@ -7,13 +7,19 @@
 //
 
 import UIKit
+import AnimateTFD
 
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var tfd: AnimatedTFD!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tfd.addIcon(iconTextType: AnimatedTFD.inputType.Email)
+        tfd.IconColorChanged = true
+        
     }
 
     override func didReceiveMemoryWarning() {

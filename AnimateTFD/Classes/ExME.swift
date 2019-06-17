@@ -1,17 +1,9 @@
-//
-//  CustomTextField.swift
-//  RTL
-//
-//  Created by omid on 6/14/19.
-//  Copyright © 2019 omid pourpanah. All rights reserved.
-//
-
 import UIKit
 import Foundation
 
-class AnimatedTFD: UITextField, UITextFieldDelegate {
+public class AnimatedTFD: UITextField, UITextFieldDelegate {
     
-    enum inputType {
+    public enum inputType {
         case Email
         case UserName
         case Password
@@ -34,6 +26,7 @@ class AnimatedTFD: UITextField, UITextFieldDelegate {
     
     public init() {
         super.init(frame: .zero)
+        delegate = self
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -50,8 +43,9 @@ class AnimatedTFD: UITextField, UITextFieldDelegate {
     private let icon = UILabel()
     private let validateIcon = UILabel()
     
-    var IconColorChanged = false
+    public var IconColorChanged = false
     var textType = inputType.UserName
+    public var parentView = UIView()
     
     func createBorder(){
         let width = CGFloat(2.0)
@@ -66,7 +60,7 @@ class AnimatedTFD: UITextField, UITextFieldDelegate {
         border.removeFromSuperlayer()
     }
     
-    func addIcon(iconTextType:inputType)  {
+    public func addIcon(iconTextType:inputType)  {
         
         self.clipsToBounds = true
         
@@ -184,13 +178,14 @@ class AnimatedTFD: UITextField, UITextFieldDelegate {
         }
     }
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    
+    public func textFieldDidBeginEditing(_ textField: UITextField) {
         print("focused")
         self.handleIcon(isShow: true)
         self.icon.textColor = self.IconColorChanged ? UIColor.red : UIColor.lightGray
     }
     
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    public func textFieldDidEndEditing(_ textField: UITextField) {
         self.removeBorder()
         
         if self.text?.count == 0 {

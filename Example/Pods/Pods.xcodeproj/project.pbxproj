@@ -11,6 +11,12 @@
 		13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		1BA8502BC67A7C596CAC25AF208AD2D2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		1E2A893F6AEA53172BA022B76B228C49 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E551CD122B7BBED00DE182B /* material_icons_1.9.32.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CD222B7BBF500DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CD322B7BC4B00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CD422B7BC5000DE182B /* material_icons_1.9.32.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CD522B7BC5E00DE182B /* material_icons_1.9.32.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */; };
+		2E551CD622B7BC6300DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CAD22B64D3700DE182B /* material_icons_1.9.32.ttf */; };
 		2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		33F3D2EBCAF19B7A46E13BEFCD343144 /* Pods-AnimateTFD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C875710E8A61A358CF1F74B4D393D53 /* Pods-AnimateTFD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D78A991740568175DCA9F6519A54EB /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
@@ -510,6 +516,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CD222B7BBF500DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +524,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CD322B7BC4B00DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +532,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CD622B7BC6300DE182B /* material_icons_1.9.32.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CD122B7BBED00DE182B /* material_icons_1.9.32.ttf in Sources */,
 				85A746A29C11EF33A07997C138C32406 /* AnimateTFD-dummy.m in Sources */,
 				BFF8FCB12EA9A7191AABA98C0F1B3BD8 /* ExME.swift in Sources */,
 			);
@@ -566,6 +576,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CD522B7BC5E00DE182B /* material_icons_1.9.32.ttf in Sources */,
 				BDF4F986CE1D977BDB186EADA3F97C6C /* Pods-AnimateTFD_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +585,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CD422B7BC5000DE182B /* material_icons_1.9.32.ttf in Sources */,
 				A08A753CF8E8EB15E0E72A8D281F7DAB /* Pods-AnimateTFD_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

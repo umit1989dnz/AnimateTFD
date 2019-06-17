@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E551CCF22B7B29E00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CCE22B7B25100DE182B /* material_icons_1.9.32.ttf */; };
 		32EB0D30D9A89B7E789694C1 /* Pods_AnimateTFD_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0344449E019D34699FFBE3 /* Pods_AnimateTFD_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		1C5DA74C07DD8DBDBC2B0F3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2D0344449E019D34699FFBE3 /* Pods_AnimateTFD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateTFD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E551CCE22B7B25100DE182B /* material_icons_1.9.32.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = material_icons_1.9.32.ttf; path = "../Pods/Target Support Files/AnimateTFD/material_icons_1.9.32.ttf"; sourceTree = "<group>"; };
 		2F0E43303A51FD2076D6DE4B /* Pods_AnimateTFD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateTFD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF165D04307A77291360798 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CD4091D1C998B02583424E1 /* AnimateTFD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimateTFD.podspec; path = ../AnimateTFD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -106,6 +108,7 @@
 		607FACD21AFB9204008FA782 /* Example for AnimateTFD */ = {
 			isa = PBXGroup;
 			children = (
+				2E551CCE22B7B25100DE182B /* material_icons_1.9.32.ttf */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -227,10 +230,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 252XU8JSPY;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 252XU8JSPY;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -261,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E551CCF22B7B29E00DE182B /* material_icons_1.9.32.ttf in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -511,6 +517,7 @@
 			baseConfigurationReference = E607B9D56EB2BB44BE2DE9B4 /* Pods-AnimateTFD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 252XU8JSPY;
 				INFOPLIST_FILE = AnimateTFD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -527,6 +534,7 @@
 			baseConfigurationReference = E24ABAA2109166A88E01E791 /* Pods-AnimateTFD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 252XU8JSPY;
 				INFOPLIST_FILE = AnimateTFD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 977D0E676122EDC826586C82 /* Pods-AnimateTFD_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 252XU8JSPY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7F111D9E5CFBC04B38C946B /* Pods-AnimateTFD_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 252XU8JSPY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

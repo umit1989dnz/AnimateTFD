@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E551CCF22B7B29E00DE182B /* material_icons_1.9.32.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E551CCE22B7B25100DE182B /* material_icons_1.9.32.ttf */; };
+		2ED4DB6B22BE1A1200CAD051 /* AutoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4DB6A22BE1A1200CAD051 /* AutoType.swift */; };
 		32EB0D30D9A89B7E789694C1 /* Pods_AnimateTFD_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0344449E019D34699FFBE3 /* Pods_AnimateTFD_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		1C5DA74C07DD8DBDBC2B0F3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2D0344449E019D34699FFBE3 /* Pods_AnimateTFD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateTFD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E551CCE22B7B25100DE182B /* material_icons_1.9.32.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = material_icons_1.9.32.ttf; path = "../Pods/Target Support Files/AnimateTFD/material_icons_1.9.32.ttf"; sourceTree = "<group>"; };
+		2ED4DB6A22BE1A1200CAD051 /* AutoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoType.swift; sourceTree = "<group>"; };
 		2F0E43303A51FD2076D6DE4B /* Pods_AnimateTFD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateTFD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF165D04307A77291360798 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CD4091D1C998B02583424E1 /* AnimateTFD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimateTFD.podspec; path = ../AnimateTFD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -84,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ED4DB6922BE19F700CAD051 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4DB6A22BE1A1200CAD051 /* AutoType.swift */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 		607FACD21AFB9204008FA782 /* Example for AnimateTFD */ = {
 			isa = PBXGroup;
 			children = (
+				2ED4DB6922BE19F700CAD051 /* libs */,
 				2E551CCE22B7B25100DE182B /* material_icons_1.9.32.ttf */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
@@ -371,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				2ED4DB6B22BE1A1200CAD051 /* AutoType.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

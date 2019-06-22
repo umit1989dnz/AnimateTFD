@@ -38,7 +38,7 @@
 		AB8A64DEACDDC74D67BD635B2D02627F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		BDF4F986CE1D977BDB186EADA3F97C6C /* Pods-AnimateTFD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9061234C66765C17AD24479E871363 /* Pods-AnimateTFD_Example-dummy.m */; };
 		BE1CC07148196181546C119716D4376C /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BFF8FCB12EA9A7191AABA98C0F1B3BD8 /* ExME.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BEF3E3E4B3D08F9AB1FF0649ECC06 /* ExME.swift */; };
+		BFF8FCB12EA9A7191AABA98C0F1B3BD8 /* AnimatedTFD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083BEF3E3E4B3D08F9AB1FF0649ECC06 /* AnimatedTFD.swift */; };
 		C2C01FD7237FC12D5FA66735397A8325 /* Pods-AnimateTFD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7745465D9A2F91E0DE8EDFF83AA3E6 /* Pods-AnimateTFD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3DB6AB5BC39F7C9B71E3710FA1F1BC6 /* AnimateTFD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D5E35748247185CF859186041A5E76 /* AnimateTFD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4AD6B2A1D9F633251F4CCE647A82052 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,7 +72,7 @@
 
 /* Begin PBXFileReference section */
 		03AFFC8A31B55D631F1DF1647E8D6E18 /* Pods_AnimateTFD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimateTFD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		083BEF3E3E4B3D08F9AB1FF0649ECC06 /* ExME.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExME.swift; path = AnimateTFD/Classes/ExME.swift; sourceTree = "<group>"; };
+		083BEF3E3E4B3D08F9AB1FF0649ECC06 /* AnimatedTFD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTFD.swift; path = AnimateTFD/Classes/AnimatedTFD.swift; sourceTree = "<group>"; };
 		08CD79790A8E2DAF5CC9125349AA2703 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0C9828263312E4C41093EE7CB2642D4A /* AnimateTFD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimateTFD-dummy.m"; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 		2103BB03ED3FAFDE8E6E810D5D886835 /* AnimateTFD */ = {
 			isa = PBXGroup;
 			children = (
-				083BEF3E3E4B3D08F9AB1FF0649ECC06 /* ExME.swift */,
+				083BEF3E3E4B3D08F9AB1FF0649ECC06 /* AnimatedTFD.swift */,
 				0E5B67B38458471E6733B81856EDF890 /* Pod */,
 				33E8642762390F01B76B6DD1AC702005 /* Support Files */,
 			);
@@ -568,7 +568,7 @@
 			files = (
 				2E551CD122B7BBED00DE182B /* material_icons_1.9.32.ttf in Sources */,
 				85A746A29C11EF33A07997C138C32406 /* AnimateTFD-dummy.m in Sources */,
-				BFF8FCB12EA9A7191AABA98C0F1B3BD8 /* ExME.swift in Sources */,
+				BFF8FCB12EA9A7191AABA98C0F1B3BD8 /* AnimatedTFD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

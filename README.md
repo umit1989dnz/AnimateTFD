@@ -36,8 +36,8 @@ pod 'AnimateTFD'
 4.set this config 
 
 ```swift
-self.yourTextField.titleTextColor = UIColor.red.withAlphaComponent(0.5)
-self.yourTextField.addBottomLine(lineColor: UIColor.brown)
+self.yourTextField.titleTextColor = UIColor.red.withAlphaComponent(0.5) 
+self.yourTextField.addBottomLine(lineColor: UIColor.brown) //optional
 ```
 
 

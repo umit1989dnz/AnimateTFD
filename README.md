@@ -13,7 +13,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## ScreenShots
 
-![Screenshot](https://raw.githubusercontent.com/umit1989dnz/AnimateTFD/master/IMG_05555.png) {:height="700px" width="400px"}
  <img src="https://raw.githubusercontent.com/umit1989dnz/AnimateTFD/master/IMG_05555.png" width="300" height="500">
 
 ## Installation

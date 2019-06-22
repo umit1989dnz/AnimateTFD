@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## ScreenShots
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![Screenshot](https://raw.githubusercontent.com/umit1989dnz/AnimateTFD/master/IMG_05555.png)
 
 ## Usage
 

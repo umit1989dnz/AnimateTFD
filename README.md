@@ -15,6 +15,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ![Screenshot](https://raw.githubusercontent.com/umit1989dnz/AnimateTFD/master/IMG_05555.png)
 
+
+## Installation
+
+AnimateTFD is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```swift
+pod 'AnimateTFD'
+```
+
+
 ## Usage
 
 1.change your textField class to AnimatedTFD
@@ -30,14 +41,6 @@ self.yourTextField.titleTextColor = UIColor.red.withAlphaComponent(0.5)
 self.yourTextField.addBottomLine(lineColor: UIColor.brown)
 ```
 
-## Installation
-
-AnimateTFD is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```swift
-pod 'AnimateTFD'
-```
 
 ## Author
 

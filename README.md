@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## ScreenShots
+
+![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+
 ## Usage
 
 1.change your textField class to AnimatedTFD
@@ -21,7 +25,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 4.set this config 
 
-```ruby
+```swift
 self.yourTextField.titleTextColor = UIColor.red.withAlphaComponent(0.5)
 self.yourTextField.addBottomLine(lineColor: UIColor.brown)
 ```
@@ -31,7 +35,7 @@ self.yourTextField.addBottomLine(lineColor: UIColor.brown)
 AnimateTFD is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod 'AnimateTFD'
 ```
 
